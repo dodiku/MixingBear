@@ -48,4 +48,4 @@ Supported keyword arguments for ``audioowl.get_waveform()``:
   - ``first`` - MixingBear will find the best mixing points, and will mix the tracks on the **first** one.
 - ``sr`` *[optional, default == 22050]* - Integer. Sample rate.
 - ``offset`` *[optional, default == 880, equal to ~20 milliseconds on a track with 44100 sample rate]* - Integer. Number of samples to use as padding on beats, to choose sync points. e.g. With offset=880, beats will be considered as 'matching' is they are positioned away from each other in 880 samples or less.
-- ``trim_silence`` *[optional, default == True]* - Boolean. If True, MixingBear will trim leading silence on ``top_file``.
+- ``trim_silence`` *[optional, default == False]* - Boolean. If True, MixingBear will trim leading silence on ``top_file``.

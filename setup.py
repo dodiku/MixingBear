@@ -5,7 +5,7 @@ with open('README.md') as f:
 
 
 setup(name='mixingbear',
-      version='0.0.1',
+      version='0.0.2',
       description='Automatic beat-mixing of music files',
       long_description=long_description,
       long_description_content_type="text/markdown",
